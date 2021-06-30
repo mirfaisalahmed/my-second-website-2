@@ -1,0 +1,98 @@
+#background{background-image: url("img/back.jpg");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+
+}
+.banner-content{height:100vh;}
+.ban{background: rgba(0,0,0,0.5);
+		font-family: 'Times New Roman', Times, serif;
+		border-radius: 5px;
+}
+.pan{background:rgba(0,0,0,0.5) ;
+		color:white;
+}
+
+.navbar{
+	background-color:rgba(0,0,0,0.5);
+	padding:1% 10%;
+}
+
+.navbar-icon{
+color:white;}
+
+.navbar-brand img{
+	width:60px;
+	height:auto;
+}
+.nav-link{
+	border-radius:5px;
+	transition:.4s;
+}
+
+.nav-link:hover{
+	background:green;
+	transform:scale(1.1);
+	
+}
+
+#feature{padding: 5% 10%;
+	background:#F8EDED;
+}
+.feature-col{border:2px solid red; 
+			padding: 15px;
+			margin: 20px 0;
+			border-radius: 5px;
+			transition:.5s;
+
+}
+.feature-col:hover{transform: scale(1.1);
+					box-shadow: 2px 5px 6px black;
+}
+.icon-style{background: #D62BD0;
+			color:white;
+
+}
+#about{background: yellowgreen;
+	padding:4% 10%;
+}
+
+
+#about p{
+	font-size:0.9rem;
+	margin-bottom:0;
+	font-weight:light;
+}
+.hr-style{border:5px dotted white;
+			border-bottom: none;
+			width:60px;
+
+}
+span{
+	font-weight:700 !important;
+}
+#card{background: #FB7BFC;
+	padding:4% 10%;
+}
+.card{border: 1px solid red;
+	transition: .5s;
+	
+			margin: 30px 0;
+			border-radius: 5px;
+			
+}
+.card:hover{transform: scale(1.1);
+			box-shadow: 2px 5px 6px black;
+
+} 
+#carsal{background: #CD123C;
+}
+
+.carousel-item{padding: 7% 15%;
+}
+.carousel-item p,h6,h5{color:white;
+}
+#form{background:#F4CCA4;
+	padding:2% 10%;
+}
+.foot a{margin-left: 20px;}
